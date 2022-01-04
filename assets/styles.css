@@ -1,0 +1,105 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: white;
+}
+.container{
+    width: 960px;
+    margin: auto;
+    background-color:white;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+header #gambar{
+    background-image: url(img.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position-y: -30px;
+    border-radius: 20px;
+    border-top: solid 3px white;
+    border-bottom: solid 3px whitesmoke;
+}
+article p{
+    text-indent: 1cm;
+    text-align: justify;
+}
+article ul li{
+    display: list-item;
+    padding: 10px;
+}
+article ul li a{
+    background-color: deepskyblue;
+    padding: 7px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+article ul li a:hover{
+    color: deepskyblue;
+    background-color: white;
+    border: solid 2px white;
+}
+#penulis a{
+    color: salmon;
+}
+header nav ul li{
+    display:inline-block;
+    padding: 10px;
+}
+header nav ul li a{
+    background-color: deepskyblue;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    margin-left: 1px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    color: #FFCCD2;
+    background-color: rgb(66, 65, 65);
+    border: solid 2px white;
+}
+article #gambar1{
+    background-image: url(img1.jpg);
+    height: 800px;
+    border-radius: 20px;
+    background-size: contain;
+    margin:auto;
+}
+#dfdLvl0{
+    background-image: url(dfdlvl0.png);
+    height: 298px;
+    width: 722px;
+    border-radius: 20px;
+    background-size: auto;
+    border: white;
+
+    background-color: white;
+}
+#dfdLvl1{
+    width: 751px;
+    height: 402px;
+    background-image: url(dfdlvl1.png);
+    border-radius: 20px;
+    background-size: auto;
+    border: white;
+
+    background-color: white;
+}
+#erd{
+    width: 782px;
+    height: 444px;
+    background-image: url(erd.png);
+    border-radius: 20px;
+    background-size: auto;
+    border: white;
+
+    background-color: white;
+}
+p{
+    text-align: justify;
+}
